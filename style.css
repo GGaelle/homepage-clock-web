@@ -1,0 +1,36 @@
+:root{
+  --gray: #323131;
+  --white: #fff;
+  --transparent: rgba(255, 255, 255, 0.45);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background: url("https://source.unsplash.com/1200x600/?wallpaper,surf,city");
+  background-size: cover;
+  overflow-y: hidden;
+}
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 7rem;
+  color: var(--gray);
+  background-color: var(--transparent);
+  padding: 17px 60px 0 60px;
+  border-radius: 15px;
+  text-shadow: 0 0 5px var(--white);
+}
+
+ion-icon {
+  border-radius: 35px;
+  background-color: var(--transparent);
+  padding: 12px;
+  margin: 0 12px;
+  font-size: 40px;
+  vertical-align: text-top;
+  color: var(--gray);
+  text-shadow: 0 0 5px var(--white);
+}
