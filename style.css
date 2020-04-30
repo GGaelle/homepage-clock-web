@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  background: url("https://source.unsplash.com/1600x900/?nature,space,aurora");
+  background: url("https://source.unsplash.com/1600x900/?harry potter");
   background-size: cover;
   overflow-y: hidden;
 }
