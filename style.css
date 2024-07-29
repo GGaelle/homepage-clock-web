@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  background: url("https://source.unsplash.com/random?summer");
+  background: url("https://images.unsplash.com/random?summer");
   background-size: cover;
   overflow-y: hidden;
 }
